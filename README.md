@@ -1,16 +1,24 @@
-# task_manager_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Menadżer Zadań Osobistych
+Celem jest stworzenie aplikacji mobilnej w Flu6erze, która pozwoli użytkownikom na 
+tworzenie, organizowanie i śledzenie codziennych zadań. 
+Funkcjonalności:
+1. Tworzenie nowych zadań przez użytkownika przez podanie:
+a. Tytułu zadania
+b. Opcjonalnego opisu
+c. Deadline’u
+2. Wyświetlanie listy zadań:
+a. Sortowanie według deadline’u
+b. Każde zadanie można odznaczać jako wykonane + przeniesienie go do sekcji 
+zadań wykonanych
+3. Edycja i usuwanie zadań
+4. Lokalne przypomnienia o zbliżających się deadline’ach
+5. Statystyki: sekcja pokazująca liczbę wykonanych zadań oraz najbardziej produktywny 
+dzień tygodnia
+Wymagania:
+1. Użycie lokalnej bazy danych do przechowywania zadań
+2. Intuicyjny i przyjazny UI
+3. Zakaz używania typu „dynamic”
+Zadanie opcjonalne:
+Na ekranie głównym, nad listą zadań, dodaj widget wyświetlający aktualną pogodę bazując 
+na obecnej lokalizacji użytkownika. Możesz wykorzystać publiczne API pogodowe, np.
+WeatherAPI.
